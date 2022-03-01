@@ -39,13 +39,13 @@ body {
     color: white;
   }
   .color-span{
-    color:#EA4C89;
+    color:#FFC9C9;
   }
   
   /*Estilos del menu*/
   .icon-menu{
     font-size: 1.5em;
-    color: #EA4C89;
+    color: #FFC9C9;
     border: 1px solid white;
     display: block;
     padding: 5px 12px;
@@ -83,8 +83,8 @@ body {
     position: absolute;
     width: 5px;
     height: 5px;
-    border-right: 2px solid #EA4C89;
-    border-top: 2px solid #EA4C89;
+    border-right: 2px solid #FFC9C9;
+    border-top: 2px solid #FFC9C9;
     top: 0;
     right: 0;
     opacity: 0;
@@ -94,8 +94,8 @@ body {
     position: absolute;
     width: 5px;
     height: 5px;
-    border-left: 2px solid #EA4C89;
-    border-bottom: 2px solid #EA4C89;
+    border-left: 2px solid #FFC9C9;
+    border-bottom: 2px solid #FFC9C9;
     left: 0;
     bottom: 0;
     opacity: 0;
@@ -105,8 +105,8 @@ body {
     position: absolute;
     width: 5px;
     height: 5px;
-    border-left: 2px solid #EA4C89;
-    border-top: 2px solid #EA4C89;
+    border-left: 2px solid #FFC9C9;
+    border-top: 2px solid #FFC9C9;
     top: 0;
     left: 0;
     opacity: 0;
@@ -116,8 +116,8 @@ body {
     position: absolute;
     width: 5px;
     height: 5px;
-    border-bottom: 2px solid #EA4C89;
-    border-right: 2px solid #EA4C89;
+    border-bottom: 2px solid #FFC9C9;
+    border-right: 2px solid #FFC9C9;
     bottom: 0;
     right: 0;
     opacity: 0;
@@ -178,7 +178,7 @@ body {
     content: "";
     width: 100%;
     min-height: 400px;
-    background: rgba(255, 143, 195, 0.3);
+    background: rgba(235, 128, 178, 0.3);
     position: absolute;
     top: 0;
     left: 0; 
@@ -200,18 +200,51 @@ body {
     left: 50%;
     transform: translateX(-50%);
     height: 3px;
-    background: #EA4C89;
+    background: #070707;
   }
   .welcome{
     text-align: center;
     padding: 20px;
     max-width: 750px;
     margin: auto;
+    margin-top: 500px
   }
   .welcome__txt{
     font-size: 1.2em;
     color: #777;
   }
+  /* productos */
+  .container-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+  .product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  .product__img{
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+  }
+  .product__title{
+    text-align: center;
+  }
+  .product__price {
+    color: #FFC9C9;
+    font-weight: bold;
+  }
+  .product__icon {
+    display: block;
+    margin-top: 10px;
+  }
+  .product:hover .product__icon {
+    color: #FFC9C9;
+  }
+ /* end */
   .container-design {
     margin: 20px 0;
   }
@@ -245,7 +278,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     height: 3px;
-    background: #EA4C89;
+    background: #FFC9C9;
   }
   .design__title:after {
     content: "";
@@ -255,7 +288,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     height: 3px;
-    background: #EA4C89;
+    background: #FFC9C9;
   }
   
   .container-testimonials {
@@ -274,7 +307,7 @@ body {
     text-align: center;
     padding: 20px;
     font-size: 1.4em;
-    color: #EA4C89;
+    color: #FFC9C9;
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -297,13 +330,13 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    color: #EA4C89;
+    color: #FFC9C9;
   }
   .box__icon:hover{
     color: black;
   }
   .box__title{
-    color: #EA4C89;
+    color: #FFC9C9;
     margin: 0;
   }
   .box__txt {
@@ -330,7 +363,7 @@ body {
   }
   .form__submit{
     display: block;
-    background: #EA4C89;
+    background: #FFC9C9;
     border: none;
     padding: 15px;
     width: 20%;
@@ -358,7 +391,7 @@ body {
   }
   .footer__author{
     text-align: right;
-    color: #EA4C89;
+    color: #FFC9C9;
     display: block;
   }
   .footer__txt .fa-twitter{
@@ -366,7 +399,7 @@ body {
     margin-right: 5px;
   }
   .footer__link{
-    color: #EA4C89;
+    color: #FFC9C9;
   }
   .footer__date{
     font-size: .8em;
@@ -429,7 +462,7 @@ body {
       right: -100px;
       width: 40px;
       transition: all 1s;
-      background: #EA4C89;
+      background: #FFC9C9;
       border-radius: 50px;
   }
   @media screen and (min-width: 768px) {
